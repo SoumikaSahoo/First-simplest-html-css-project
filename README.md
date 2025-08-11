@@ -9,3 +9,7 @@ The page includes:
 - Stacked image layout
 - “Advanced Technology” label with a circular settings icon
 - Simple, responsive design
+## 📸 Preview
+[Screenshot]<img width="1893" height="1003" alt="Screenshot 2025-08-11 184718" src="https://github.com/user-attachments/assets/ab9e2d3b-cb49-4d5e-9207-b6fe40f8c3a1" />
+http://127.0.0.1:5500/index1.html
+
