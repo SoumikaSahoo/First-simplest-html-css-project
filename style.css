@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 254, 254);
+}
+#nav{
+    height: 100px;
+    width: 100%;
+  background-color: rgb(249, 170, 170);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#nav h3{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-weight: 500px;
+}
+#nav i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 17px;
+    font-weight: 500;
+}
+#btn2{
+    border: none ;
+    background-color: orangered;
+    color: white;
+}
+#b1{
+    font-size: 110px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+
+}
+img{
+height: 400px;
+width: 350px;
+object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+border-radius: 5%;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+    
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-40deg);
+    
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-80deg);
+    
+}
+
+#img5{
+    transform: translate(-50%,-50%) rotate(-100deg);
+    
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-20deg);
+    
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 18px;
+
+}
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 18px;
+}
+
+#but{
+    border: none;
+    background-color: rgb(251, 251, 251);
+    color: black;
+   padding: 7px 12px;
+    border-radius: 50px;
+    position: absolute;
+  top: 73%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+    
+
+}
+#imt{
+  
+    position: absolute; 
+    top : 73.5%; 
+    left: 43.25%; 
+    transform: translate(-50%, -50%); 
+    z-index: 10;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+#bb{
+     border: none;
+    background-color: rgb(245, 245, 245);
+    top : 73%; 
+    left: 43%; 
+     padding:  15px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    align-items: center;
+
+}
+  
+
+
+    
+
